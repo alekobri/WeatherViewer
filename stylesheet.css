@@ -1,0 +1,66 @@
+body {
+   background: url(https://2104310a1da50059d9c5-d1823d6f516b5299e7df5375e9cf45d2.ssl.cf2.rackcdn.com/nmbx/2015/08/lighthouse-1024x570.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 99%;
+}
+
+h1 {
+   font-family: 'Amatic SC', cursive;
+   font-size: 60px;
+}
+
+.top-bar {
+   padding-top: 10px;
+}
+
+.initial {
+   margin-top: 100px;
+}
+
+.btn-default {
+   opacity: 0.6;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3f3f3f;
+  opacity: 0.3;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 25px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+footer {
+   background-color: transparent;
+   color: wheat;
+   height: 36px;
+}
+
+footer p {
+   margin: 10px 0;
+}
+
+footer a {
+   color: indianred;
+}
+  
+footer a:hover {
+   color: peru;
+   text-decoration: none;
+}
